@@ -203,4 +203,4 @@ client.on("message", async(message) => {
     }
 })
  
-client.login('ODIxMjA1MzAxOTMxOTMzNzAx.YFAVCQ.L5tTi-weZ_xmIZoawG0J9L3bzX0') 
+client.login('ODIxMjA1MzAxOTMxOTMzNzAx.YFAVCQ.bDZcM5ZpQAhBm6q1qs6iya0iOrw') 
