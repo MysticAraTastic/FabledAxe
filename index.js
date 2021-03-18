@@ -86,7 +86,7 @@ client.on("message", async(message) => {
                 try{
                     let connection = await vc.join();
                     queueConstructor.connection = connection;
-                    message.guild.me.voice.setSealDeaf(true);
+                    message.guild.me.voice.setSelfDeaf(true);
                     play(message.guild, queueConstructor.songs[0]);
                 }catch (err){
                     console.error(err);
